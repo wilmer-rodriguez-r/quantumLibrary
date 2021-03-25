@@ -1,4 +1,5 @@
 import unittest
+import quantumLibrary as ql
 
 class TestStringMethods(unittest.TestCase):
 
