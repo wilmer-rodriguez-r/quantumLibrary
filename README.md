@@ -57,7 +57,7 @@ Consideraremos los calculos sin la constante h/2. Como sabemos los vectores prop
 
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=v_2&space;=&space;\begin{bmatrix}&space;0.7071\\&space;0.7071&space;\end{bmatrix}&space;=&space;\begin{bmatrix}&space;\frac{\sqrt{2}}{2}\\&space;\frac{\sqrt{2}}{2}&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?v_2&space;=&space;\begin{bmatrix}&space;0.7071\\&space;0.7071&space;\end{bmatrix}&space;=&space;\begin{bmatrix}&space;\frac{\sqrt{2}}{2}\\&space;\frac{\sqrt{2}}{2}&space;\end{bmatrix}" title="v_2 = \begin{bmatrix} 0.7071\\ 0.7071 \end{bmatrix} = \begin{bmatrix} \frac{\sqrt{2}}{2}\\ \frac{\sqrt{2}}{2} \end{bmatrix}" /></a></p>
 
-Estos serian los estados posibles después de haber llevado la medición.
+Estos serian los estados posibles después de haber llevado la medición. Puede encontrar el codigo en Ejercicio4.3.1.py.
 
 #### Ejercicio 4.3.2
 
@@ -65,11 +65,11 @@ Encontrar la probabilidad con el que el sistema puede moverse a los vectores pro
 
 Con ayuda de la función quatumMeasuring de la librería de python nos da los siguientes resultados:
 
-<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=|\langle&space;\psi|v_1\rangle|^2&space;=&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?|\langle&space;\psi|v_1\rangle|^2&space;=&space;1" title="|\langle \psi|v_1\rangle|^2 = 1" /></a></p>
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=|\langle&space;\psi|v_1\rangle|^2&space;=&space;0.5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?|\langle&space;\psi|v_1\rangle|^2&space;=&space;0.5" title="|\langle \psi|v_1\rangle|^2 = 0.5" /></a></p>
 
-<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=|\langle&space;\psi|v_2\rangle|^2&space;=&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?|\langle&space;\psi|v_2\rangle|^2&space;=&space;1" title="|\langle \psi|v_2\rangle|^2 = 1" /></a></p>
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=|\langle&space;\psi|v_2\rangle|^2&space;=&space;0.5" target="_blank"><img src="https://latex.codecogs.com/gif.latex?|\langle&space;\psi|v_2\rangle|^2&space;=&space;0.5" title="|\langle \psi|v_2\rangle|^2 = 0.5" /></a></p>
 
-Puede corroborar este resultado usando la librería, ingresando el observable del anterior punto sin considerar la constante junto con el vector ket, y notara que da estos resultados.
+Puede corroborar este resultado usando la librería, ingresando el observable del anterior punto sin considerar la constante junto con el vector ket, y notara que da estos resultados. Puede encontrar este codigo en eel archivo Ejercicio4.3.2.py.
 
 #### Ejercicio 4.4.1
 
@@ -81,9 +81,9 @@ Verifique que al multiplicar las siguientes matrices unitarias, la matriz result
 
 Con ayuda de una función implementada para este problema llamada multmatrices, calcularemos la matriz resultante y junto a esto corroboraremos si esta es unitaria, la matriz resultante es:
 
-<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=U_3&space;=\begin{bmatrix}&space;0.7071&space;&&space;-0.7071&space;\\&space;0.7071&space;&&space;-0.7071&space;\end{bmatrix}=&space;\begin{bmatrix}&space;\frac{\sqrt{2}}{2}&space;&&space;-\frac{\sqrt{2}}{2}&space;\\&space;\frac{\sqrt{2}}{2}&space;&&space;-\frac{\sqrt{2}}{2}&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?U_3&space;=\begin{bmatrix}&space;0.7071&space;&&space;-0.7071&space;\\&space;0.7071&space;&&space;-0.7071&space;\end{bmatrix}=&space;\begin{bmatrix}&space;\frac{\sqrt{2}}{2}&space;&&space;-\frac{\sqrt{2}}{2}&space;\\&space;\frac{\sqrt{2}}{2}&space;&&space;-\frac{\sqrt{2}}{2}&space;\end{bmatrix}" title="U_3 =\begin{bmatrix} 0.7071 & -0.7071 \\ 0.7071 & -0.7071 \end{bmatrix}= \begin{bmatrix} \frac{\sqrt{2}}{2} & -\frac{\sqrt{2}}{2} \\ \frac{\sqrt{2}}{2} & -\frac{\sqrt{2}}{2} \end{bmatrix}" /></a></p>
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=U_3&space;=&space;\begin{bmatrix}&space;0.7071&space;&-0.7071&space;\\&space;0.7071&space;&&space;0.7071&space;\end{bmatrix}=\begin{bmatrix}&space;\frac{\sqrt{2}}{2}&space;&-\frac{\sqrt{2}}{2}&space;\\&space;\frac{\sqrt{2}}{2}&\frac{\sqrt{2}}{2}&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?U_3&space;=&space;\begin{bmatrix}&space;0.7071&space;&-0.7071&space;\\&space;0.7071&space;&&space;0.7071&space;\end{bmatrix}=\begin{bmatrix}&space;\frac{\sqrt{2}}{2}&space;&-\frac{\sqrt{2}}{2}&space;\\&space;\frac{\sqrt{2}}{2}&\frac{\sqrt{2}}{2}&space;\end{bmatrix}" title="U_3 = \begin{bmatrix} 0.7071 &-0.7071 \\ 0.7071 & 0.7071 \end{bmatrix}=\begin{bmatrix} \frac{\sqrt{2}}{2} &-\frac{\sqrt{2}}{2} \\ \frac{\sqrt{2}}{2}&\frac{\sqrt{2}}{2} \end{bmatrix}" /></a></p>
 
-Puede corroborar que esta matriz es unitaria.
+Puede corroborar que esta matriz es unitaria, este ejercicio se encuentra en el codigo Ejercicio4.4.1.py.
 
 #### Ejercicio 4.4.2
 
@@ -97,7 +97,7 @@ Al evaluar el vector final despues de los tres clicks, con ayuda de la función 
 
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=|\psi\rangle&space;=\begin{bmatrix}&space;0&space;\\&space;-0.7071&space;&plus;&space;0.7071i\\&space;0\\&space;0&space;\end{bmatrix}=\begin{bmatrix}&space;0&space;\\&space;-\frac{\sqrt{2}}{2}&space;&plus;&space;\frac{\sqrt{2}}{2}i\\&space;0\\&space;0&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?|\psi\rangle&space;=\begin{bmatrix}&space;0&space;\\&space;-0.7071&space;&plus;&space;0.7071i\\&space;0\\&space;0&space;\end{bmatrix}=\begin{bmatrix}&space;0&space;\\&space;-\frac{\sqrt{2}}{2}&space;&plus;&space;\frac{\sqrt{2}}{2}i\\&space;0\\&space;0&space;\end{bmatrix}" title="|\psi\rangle =\begin{bmatrix} 0 \\ -0.7071 + 0.7071i\\ 0\\ 0 \end{bmatrix}=\begin{bmatrix} 0 \\ -\frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2}i\\ 0\\ 0 \end{bmatrix}" /></a></p>
 
-Ahora pasados los ejercicios anteriores, vamos a discutir los siguientes ejercicios, explicando paso a paso sobre estos.
+Ahora pasados los ejercicios anteriores, vamos a discutir los siguientes ejercicios, explicando paso a paso sobre estos. Puede encontrar este codigo en el archivo Ejercicio4.4.2.
 
 #### Ejercicio 4.5.2.
 
